@@ -1,0 +1,80 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content{
+    display: none;
+    position:absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+
+
+}
+
+.form{
+    border-radius: 10px;
+    background-color: #d4dddd;
+    padding: 20px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+input[type=submit]:hover{
+    background-color: rgb(113, 157, 143);
+}
+
+.dropdown_content a{
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    position:-ms-page;
+
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+input[type=text],input[type=number],input[type=date],input[type=email],textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border:2px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+    
+}
+
+body{
+    font-family:sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.dropbtn{
+    background-color: rgb(127, 144, 255);
+    color: #000000;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0px  5px 10px 0px rgba(0, 0, 0,2);
+    z-index: 1;
+}
+
+
+
